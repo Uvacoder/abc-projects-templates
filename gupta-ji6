@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1XY8RHMRL9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1XY8RHMRL9');
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="JavaScript30 - A 30 day vanilla JS coding challenge by WesBos. Made by Ayush Gupta."
+    />
+    <meta property="og:title" content="JavaScript30 - Ayush Gupta" />
+    <meta
+      property="og:description"
+      content="A 30 day vanilla JS coding challenge by WesBos. Made by Ayush Gupta"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://javascript30.ayushgupta.tech/" />
+    <meta
+      property="og:image"
+      content="https://user-images.githubusercontent.com/21218732/91047515-d1764400-e637-11ea-9a22-66e0da46fd93.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="JavaScript30 - Ayush Gupta" />
+    <meta
+      name="twitter:description"
+      content="A 30 day vanilla JS coding challenge by WesBos. Made by Ayush Gupta."
+    />
+    <meta name="twitter:url" content="https://javascript30.ayushgupta.tech/" />
+    <meta
+      name="twitter:image"
+      content="https://user-images.githubusercontent.com/21218732/91047515-d1764400-e637-11ea-9a22-66e0da46fd93.png"
+    />
+    <meta name="twitter:site:id" content="_guptaji_" />
+    <meta name="twitter:creator:id" content="_guptaji_" />
+    <title>JavaScript30 - Ayush Gupta</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Molle:400i&display=swap&text=JavaScript30"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/manifest.json" />
+  </head>
+
+  <body>
+    <h1 class="title">JavaScript30</h1>
+    <h2 class="subtitle">
+      30 day vanilla JS coding challenge by
+      <a href="https://wesbos.com/" target="_blank" rel="noopener">WesBos</a>
+    </h2>
+    <div class="github-buttons">
+      <a
+        class="github-button bttn"
+        href="https://github.com/gupta-ji6/JavaScript30"
+        data-color-scheme="no-preference: dark; light: dark; dark: dark;"
+        data-icon="octicon-star"
+        data-size="large"
+        aria-label="Star gupta-ji6/JavaScript30 on GitHub"
+        >Star</a
+      >
+      <a
+        class="github-button bttn"
+        href="https://github.com/gupta-ji6"
+        data-color-scheme="no-preference: dark; light: dark; dark: dark;"
+        data-size="large"
+        aria-label="Follow @gupta-ji6 on GitHub"
+        >Follow</a
+      >
+      <a
+        class="github-button bttn"
+        href="https://github.com/gupta-ji6/JavaScript30/fork"
+        data-color-scheme="no-preference: dark; light: dark; dark: dark;"
+        data-icon="octicon-repo-forked"
+        data-size="large"
+        aria-label="Fork gupta-ji6/JavaScript30 on GitHub"
+        >Fork</a
+      >
+    </div>
+    <div class="grid-container">
+      <a href="01-JS-Drum-Kit/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#1</span>
+          <span>JS Drum Kit</span>
+        </div>
+      </a>
+      <a href="02-JS-CSS-Clock/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#2</span>
+          <span>JS CSS Clock</span>
+        </div>
+      </a>
+      <a href="03-CSS-Variables/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#3</span>
+          <span>CSS Variables</span>
+        </div>
+      </a>
+      <a href="04-Array-Cardio-1/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#4</span>
+          <span>Array Cardio - 1</span>
+        </div>
+      </a>
+      <a href="05-Flex-Gallery/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#5</span>
+          <span>Flex Panel Gallery</span>
+        </div>
+      </a>
+      <a href="06-Type-Ahead/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#6</span>
+          <span>Type Ahead</span>
+        </div>
+      </a>
+      <a href="07-Array-Cardio-2/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#7</span>
+          <span>Array Cardio - 2</span>
+        </div>
+      </a>
+      <a href="08-HTML5-Canvas/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#8</span>
+          <span>Fun with HTML5 Canvas</span>
+        </div>
+      </a>
+      <a href="09-Dev-Tools/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#9</span>
+          <span>Dev Tools Domination</span>
+        </div>
+      </a>
+      <a
+        href="10-Multiple-Check-Shift/index.html"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="items">
+          <span>#10</span>
+          <span>Hold Shift and Check Checkboxes</span>
+        </div>
+      </a>
+      <a
+        href="11-Custom-Video-Player/index.html"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="items">
+          <span>#11</span>
+          <span>Custom Video Player</span>
+        </div>
+      </a>
+      <a
+        href="12-Key-Sequence-Detection/index.html"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="items">
+          <span>#12</span>
+          <span>Key Sequence Detection</span>
+        </div>
+      </a>
+      <a href="13-Slide-In-On-Scroll/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#13</span>
+          <span>Slide in on Scroll</span>
+        </div>
+      </a>
+      <a
+        href="14-JS-Reference-Vs-Copy/index.html"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="items">
+          <span>#14</span>
+          <span>JavaScript References vs Copying</span>
+        </div>
+      </a>
+      <a href="15-Localstorage/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#15</span>
+          <span>LocalStorage</span>
+        </div>
+      </a>
+      <a href="16-Mousemove-Shadow/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#16</span>
+          <span>Mouse Move Shadow</span>
+        </div>
+      </a>
+      <a
+        href="17-Sort-Without-Articles/index.html"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="items">
+          <span>#17</span>
+          <span>Sort Without Articles</span>
+        </div>
+      </a>
+      <a
+        href="18-Add-Time-With-Reduce/index.html"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="items">
+          <span>#18</span>
+          <span>Adding Up Times with Reduce</span>
+        </div>
+      </a>
+      <a href="19-Webcam-Fun/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#19</span>
+          <span>Webcam Fun</span>
+        </div>
+      </a>
+      <a href="20-Speech-Recognition/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#20</span>
+          <span>Speech Detection</span>
+        </div>
+      </a>
+      <a href="21-Geolocation/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#21</span>
+          <span>Geolocation</span>
+        </div>
+      </a>
+      <a href="22-Follow-Along-Link/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#22</span>
+          <span>Follow Along Link Highlighter</span>
+        </div>
+      </a>
+      <a href="23-Speech-Synthesis/index.html">
+        <div class="items">
+          <span>#23</span>
+          <span>Speech Synthesis</span>
+        </div>
+      </a>
+      <a href="24-Sticky-Nav/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#24</span>
+          <span>Sticky Nav</span>
+        </div>
+      </a>
+      <a
+        href="25-EventCapture-Propogation-Bubbling/index.html"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="items">
+          <span>#25</span>
+          <span>Event Capture, Propogation, Bubbling & Once</span>
+        </div>
+      </a>
+      <a href="26-Stripe-Nav/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#26</span>
+          <span>Stripe Follow Along Nav</span>
+        </div>
+      </a>
+      <a href="27-Click-Drag-Scroll/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#27</span>
+          <span>Click and Drag</span>
+        </div>
+      </a>
+      <a
+        href="28-Video-Speed-Controller/index.html"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="items">
+          <span>#28</span>
+          <span>Video Speed Controller</span>
+        </div>
+      </a>
+      <a href="29-Countdown-Timer/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#29</span>
+          <span>Countdown Timer</span>
+        </div>
+      </a>
+      <a href="30-Whack-A-Mole/index.html" target="_blank" rel="noopener">
+        <div class="items">
+          <span>#30</span>
+          <span>Whack A Mole</span>
+        </div>
+      </a>
+    </div>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <footer>
+      <div class="footer">
+        Made with&nbsp;
+        <span role="img" aria-label="Coffee"> ☕&nbsp; </span>
+        &&nbsp;
+        <span role="img" aria-label="Heart"> ❤&nbsp; </span>
+        by&nbsp;
+        <a href="http://ayushgupta.tech" target="_blank" rel="noopener"
+          >Ayush Gupta</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
