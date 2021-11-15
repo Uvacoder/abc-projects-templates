@@ -1,0 +1,116 @@
+:root {
+  --bg-color: #ebecf0;
+  --text-color: #000000de;
+}
+
+body {
+  background: var(--bg-color);
+  margin: 30px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.title {
+  font-family: "Molle", cursive;
+  font-size: 50px;
+  margin-bottom: 0;
+  letter-spacing: 1.2px;
+  color: var(--text-color);
+}
+
+.subtitle {
+  font-family: monospace;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.github-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  min-width: 30vh;
+  flex-grow: 2;
+}
+
+.btn {
+  width: 20vw !important;
+}
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 50px;
+  width: 80vw;
+  visibility: hidden;
+}
+
+.grid-container > * {
+  visibility: visible;
+  transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms;
+}
+
+.grid-container:hover > * {
+  opacity: 0.5;
+  transform: scale(0.9);
+}
+
+.grid-container > *:hover {
+  opacity: 1;
+  transform: scale(1.02);
+  transition-delay: 0ms, 0ms;
+}
+
+.items {
+  min-height: 25vh;
+  box-shadow: -5px -5px 20px 0 #ffffff, 5px 5px 20px 0 #aeaec0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  background: #e3e6ecde;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: monospace;
+  text-align: center;
+  padding: 5px;
+}
+
+.items:hover {
+  box-shadow: inset -2px -2px 5px #ffffff, inset 2px 2px 5px #d1d9e6;
+  /* border-top: 2px solid #00000031; */
+  /* border-left: 2px solid #00000031; */
+  transition: all 0.2s ease-in-out;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  height: 12vh;
+  width: 100vw;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset -3px -3px 7px #000000, inset 3px 3px 7px var(--bg-color);
+  background-color: rgb(34, 34, 34);
+  color: var(--bg-color);
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.footer > a {
+  color: var(--bg-color);
+  font-weight: bolder;
+}
