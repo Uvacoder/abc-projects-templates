@@ -4,4 +4,4 @@ https://mugilan-codes.github.io/javascript-30/
 
 https://github.com/Mugilan-Codes
 
-![JS30](/js30.png)
+![mugilan-codes.github.io:javascript-30:](/mugilan-codes.github.io:javascript-30:.png)
